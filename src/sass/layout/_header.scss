@@ -1,0 +1,72 @@
+.header__contact{
+    background-color: $grey-light;
+    height: 4rem;
+    line-height: 4rem;
+
+    i{
+        color: $grey;
+        font-size: 1.9rem;
+        margin-right: 1.1rem;
+    }
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__phone{
+
+    i{
+        margin: 0;
+    }
+
+    span{
+        color: $grey;
+        font-size: 1.4rem;
+    }
+}
+
+nav{
+    height: 12rem;
+    line-height: 12rem;
+    font-size: 1.6rem;
+}
+
+.navbar{
+   
+    &__logo{
+        height: 12rem;
+        line-height: 12rem;
+
+        img{
+            width: 19rem;
+            height: auto;
+        }
+    }
+
+    &__menu{
+
+        a{
+            color: $black;
+            text-transform: uppercase;
+            margin-left: 5.5rem;
+            transition: all .3s ease;
+            font-size: 1.6rem;
+
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+}
+
+nav ul a{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a:hover{
+    background-color: transparent;
+}
+

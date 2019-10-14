@@ -1,4 +1,3 @@
-import {bro} from './bro';
 import '../sass/main.scss';
+import {Greeting} from './hello';
 
-console.log(bro('Sup'))
